@@ -10,12 +10,14 @@ const initialState={
     ], 
 }
 
-export const ProductReducer=(state,{type,payload})=>{
+export const productReducer=(state=initialState,{type,payload})=>{
 
     switch(type){
 
         case ActionTypes.SET_PRODUCTS:
             return state; 
+        default:
+            return state;
 
 
     }
