@@ -11,9 +11,7 @@ const ProductComponent = () => {
                 <div className="card">
                     <div className="image"></div>
                     <div className="content">
-                        <div className="header">
-                            {title}
-                        </div>
+                        {/* <div className="header">{title}</div> */}
                     </div>
                 </div>
             </div>
